@@ -27,10 +27,6 @@ public class Library {
 
         System.out.println(persona.getName());
 
-<<<<<<< HEAD
-=======
-
->>>>>>> dbd6ace98f2c2c5ad3e9c6ce9bc987b40270f09f
         BinaryOperator<Integer> calc = (p1, p2) -> p1 + p2;
 
         System.out.println(calc.apply(1, 2));
