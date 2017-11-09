@@ -13,6 +13,8 @@
 include 'shared'
 include 'api'
 include 'services:webservice'
+
+I added this new line.
 */
 
 rootProject.name = 'stream-example'
