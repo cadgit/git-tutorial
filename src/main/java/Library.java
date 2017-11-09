@@ -20,6 +20,8 @@ public class Library {
 
         System.out.println("this is a new lien");
 
+        System.out.println("this is a second line");
+
         BinaryOperator<Integer> calc = (p1, p2) -> p1 + p2;
 
         System.out.println(calc.apply(1, 2));
