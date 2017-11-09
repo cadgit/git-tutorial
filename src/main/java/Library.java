@@ -14,9 +14,11 @@ public class Library {
     public static void main(String[] args) {
         List<Integer> listOfNumbers = Arrays.asList(1, 2, 3, 4);
 
-        List<Integer> result = listOfNumbers.stream().filter(p -> p >= 3).map(p -> p + 1).collect(Collectors.toList());
+        List<Integer> result = listOfNumbers.stream().filter(p -> p >= (3 + 1) ).map(p -> p + 1).collect(Collectors.toList());
 
         result.forEach(System.out::println);
+
+        System.out.println("this is a new lien");
 
         BinaryOperator<Integer> calc = (p1, p2) -> p1 + p2;
 
